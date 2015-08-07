@@ -1,0 +1,29 @@
+div {
+  border: 1px solid black;
+  display: block;
+  margin: 0 auto;
+  height: 35%; }
+
+/* Use this background for all pages*/
+body {
+  background-color: #008000; }
+
+/*Use $second-color for all pages*/
+h2 {
+  color: #FFFFFF;
+  font: raleway;
+  font-size: 18px; }
+
+p {
+  color: #FFFFFF;
+  font: raleway; }
+
+.message, .ending {
+  color: #FFFFFF;
+  font-size: 10px; }
+
+/* Always use @extend .message for ending class unless noted otherwise*/
+.ending {
+  font: raleway; }
+
+/*# sourceMappingURL=main.css.map */

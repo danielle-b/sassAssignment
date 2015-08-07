@@ -1,0 +1,36 @@
+$favorite-color: #008000;
+$second-color:#FFFFFF;
+$first-font:raleway;
+$font-one:18px;
+$font-two:10px;
+
+@import 'div';
+
+ /* Use this background for all pages*/
+body{
+	background-color:$favorite-color;
+}
+/*Use $second-color for all pages*/
+h2 {
+	color: $second-color;
+	font:$first-font;
+	font-size: $font-one;
+
+}
+
+p{
+	color:$second-color;
+	font:$first-font;
+}
+
+.message{
+	color:$second-color;
+	font-size:$font-two;
+}
+
+/* Always use @extend .message for ending class unless noted otherwise*/ 
+
+.ending{
+	@extend .message;
+	font:$first-font;
+}
